@@ -62,6 +62,12 @@ document.getElementById("red").addEventListener("input", byttFarge)
 document.getElementById("green").addEventListener("input", byttFarge)
 document.getElementById("blue").addEventListener("input", byttFarge)
 
+function colorPickerFarge() {
+    let colorPickerFarge = document.getElementById("colorPicker").value
+    document.body.style.background = colorPickerFarge
+}
+document.getElementById("colorPicker").addEventListener("input", colorPickerFarge)
+
 function tilbakestillFarge() {
     document.getElementById("red").value = 0
     document.getElementById("green").value = 200
