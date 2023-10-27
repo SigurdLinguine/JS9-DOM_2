@@ -33,7 +33,7 @@
     border-color: white;
     background-color: darkred;
 }
-#check:hover, #random:hover{
+#check:hover, #random:hover, #setColor:hover, #randomColor:hover{
     background-color: red;
     transition: 0.3s;
     cursor: pointer;
@@ -70,6 +70,34 @@
     margin-right: auto;
     font-size: 20px;
 }
+
+.colorInput{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+#colorInput{
+    width: 200px;
+    height: 30px;
+    color: black;
+    border: 2px solid;
+    border-color: white;
+}
+
+.setColor, .randomColor{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#setColor, #randomColor{
+    width: 200px;
+    height: 30px;
+    color: white;
+    border: 2px solid;
+    border-color: white;
+    background-color: darkred;
+}
+
 
 body{
     background-color: rgb(0, 200, 200);
